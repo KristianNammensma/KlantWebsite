@@ -403,6 +403,7 @@ main {
   .btn:hover {
     background-color: #212529;
     text-decoration: none;
+    cursor: pointer;
   }
 
   .background {

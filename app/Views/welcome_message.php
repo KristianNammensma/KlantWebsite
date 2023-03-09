@@ -34,14 +34,14 @@ $users = $userModel->findAll();
             </nav>
         </div>
         <div class="header-white">
-                <a href="#default" class="logolink">
+                <a class="logolink">
                     <img id="logoimg" src="./imgs/DLab_Logo_FC100.png"></a>
-                <a class="active" href="#home">Home</a>
-                <a id="Projecten" href="#projecten">Projecten</a>
-                <a id="Diensten" href="#onze diensten">Onze Diensten</a>
-                <a id="OverOns" href="#over ons">Over ons</a>
-                <a id="Nieuws" href="#nieuws">Nieuws</a>
-                <a id="Contact" href="#contact">Contact</a>
+                <a class="active">Home</a>
+                <a id="Projecten">Projecten</a>
+                <a id="Diensten">Onze Diensten</a>
+                <a id="OverOns">Over ons</a>
+                <a id="Nieuws">Nieuws</a>
+                <a id="Contact">Contact</a>
     </div>
 
 
@@ -66,7 +66,7 @@ $users = $userModel->findAll();
 						Het D'Lab is onderdeel van het Friesland College maar werkt ook nauw samen met de Frisian Design Factory (onderdeel van NHL/Stenden).
 						<br> <br>
 						</p>
-						<a id="Meer-a" href="">Meer..</a>
+						<a id="Meer-a" href="https://www.facebook.com/pg/DLab058/%22%3E">Meer..</a>
 					</div>
 				</div>
 			</div>
@@ -310,14 +310,14 @@ $users = $userModel->findAll();
 		
 
 	<section class="containernieuws">
-		<div class="row">
+		<!-- <div class="row">
 			<img src="./imgs/post-01.jpg">
 			<div class="background">
 				<h1>Expositie Valencia</h1>
 				<p class="date">1 April, 2019</p>
 				<p class="bgtext">In de eerste week van april vindt er een expositie plaats in Valencia waar ook stukken van onze studenten worden tentoongesteld</p>
 				<button class="btn">
-					Lees verder
+				<a href="https://www.facebook.com/pg/DLab058/%22%3E">Lees verder</a>
 				</button>
 			</div>
 		</div>
@@ -328,10 +328,10 @@ $users = $userModel->findAll();
 				<p class="date">2 April, 2019</p>
 				<p class="bgtext">Het D'Lab gaat zich samen met verschillende partners inzetten voor het ontwikkelen van productiemethodes o.b.v. gerecycled plastic.</p>
 				<button class="btn">
-					Lees verder
+					<a href="https://www.facebook.com/pg/DLab058/%22%3E">Lees verder</a>
 				</button>
 			</div>
-		</div>
+		</div> -->
 
 		<?php foreach($users as $u)
 		if(empty($u['titel']))
@@ -345,9 +345,7 @@ $users = $userModel->findAll();
 				"<h1>".$u['titel']."</h1>".
 				"<p class='date'>".$u['datum']."</p>".
 				"<p class='bgtext'>".$u['info']."</p>".
-				"<button class='btn'>".
-					"Lees verder".
-				"</button>".
+					"<a href='https://www.facebook.com/pg/DLab058/%22%3E'><button class='btn'>Lees verder</button></a>".
 			"</div>".
 		"</div>";
 		}
