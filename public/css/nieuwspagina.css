@@ -1,0 +1,161 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button[type=submit],#submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  footer {
+    position: relative;
+    top: 300vh;
+    width: 99vw;
+    color: white;
+    background-color: rgb(69, 69, 69);
+}
+.office-info,
+.widget-title {
+    display: flex;
+    justify-content: center;
+}
+#footertext {
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.nieuws-top{
+    position: relative;
+    top: 130vh;
+}
+#nieuws-title{
+    color: #fa9a00;
+}
+
+.Info_Container {
+    text-align: center;
+}
+
+.containernieuws {
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
+.containernieuws h1 {
+    color: #fa9a00;
+}
+
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 150px;
+    background-color: #fa9a00;
+    color: white;
+    outline: 0;
+    text-decoration: none;
+    transition: 0.5s;
+    border-style: none;
+    font-size: medium;
+}
+
+.btn:hover {
+    background-color: #212529;
+    text-decoration: none;
+}
+
+
+.background {
+	position: relative;
+	background: #343a40;
+    height: 300px;
+    width: 400px;
+    margin: 10px 0px;
+}
+
+.background:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 7.5%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-bottom-color: #343a40;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -9.5px;
+	margin-top: -19px;
+}
+
+.bgtext {
+    padding: 0px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date {
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.files
+{
+    border-style: solid;
+    border-color: rgb(148, 145, 145);
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #071829;
+    width: 20vw;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }

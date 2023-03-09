@@ -1,0 +1,153 @@
+/* Footer */
+.footerh {
+    font-size: 4vh;
+  }
+  
+  .footer-widget-area {
+    height: 30vh;
+    width: 100vw;
+    background-color: #eee;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-widget-area::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 40vw;
+    height: 4vh;
+    bottom: -1vh;
+    left: 0;
+    z-index: 3;
+    background-color: #343434;
+    transform-origin: bottom left;
+    -ms-transform: skew(45deg, 0deg);  
+    -webkit-transform: skew(45deg, 0deg);
+    transform: skew(45deg, 0deg);
+  }
+  
+  footer {
+    width: 100vw;
+    color: white;
+    background-color: #343434; 
+    margin-top: auto;
+  }
+  
+  .footercontainer {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    margin: 10vh;
+  }
+  
+  .footercontainer li {
+    font-size: 2vh;
+  }
+  
+  .footerimgtext {
+    display: flex;
+    flex-direction: column;
+    /* margin: 50px; */
+  }
+  
+  .mt-22 a {
+    padding: 2vw;
+    font-size: 5vh;
+  }
+  
+  .bottomfooter {
+    height: 20vh;
+    width: 100vw;
+    background-color: #222;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottomfooter p {
+    font-size: 2vh;
+  }
+  
+  
+  .bottomfooter::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 40vw;
+    height: 4vh;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #343434;
+    transform-origin: top left;
+    -ms-transform: skew(-45deg, 0deg);  
+    -webkit-transform: skew(-45deg, 0deg);
+    transform: skew(-45deg, 0deg);
+  }
+  
+  .Info_Container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+  
+  .Info_Container li {
+    padding: 10px;
+  }
+  
+  .footertext {
+    height: auto;
+    width: 23vw;
+    font-size: 2vh;
+    color: #ddd;
+  }
+  
+  #logo{
+    width: 10vw;
+    height: 10vw;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list a {
+    color: #CCCCCC;
+  }
+  
+  .list li {
+    padding: 1vh;
+  }
+  
+  .list li a:before {
+      content: '\f105';
+      font-family: FontAwesome;
+      font-size: 2.3vh;
+      margin-right: 0.6vw;
+  }
+  
+  .office-info,
+  .widget-title {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+  
+  .office-info p {
+    margin-top: 0.5vh;
+    font-size: 2vh;
+    color: #CCCCCC;
+  }
+  
+  .widget-item {
+    margin-left: 10vw;
+  }
+  

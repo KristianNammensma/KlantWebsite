@@ -1,0 +1,142 @@
+footer {
+    position: relative;
+    top: 300vh;
+    width: 99vw;
+    color: white;
+    background-color: rgb(69, 69, 69);
+}
+.office-info,
+.widget-title {
+    display: flex;
+    justify-content: center;
+}
+#footertext {
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.nieuws-top{
+    position: relative;
+    top: 130vh;
+}
+#nieuws-title{
+    color: #fa9a00;
+}
+
+.Info_Container {
+    text-align: center;
+}
+
+.containernieuws {
+    display: flex;
+    position: relative;
+    top: 130vh;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+/* .background {
+    background-color: #343434;
+    color: #fff;
+    padding: 25px 20px 40px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 23px;
+} */
+
+
+.containernieuws h1 {
+    color: #fa9a00;
+}
+
+/* .background {
+	position: relative;
+	background: #343a40;
+    height: 300px;
+    width: 400px;
+    margin: 10px 0px;
+    color: white;
+}
+
+.background:after {
+	content: '';
+	position: absolute; 
+    top: 0;
+	width: 0px;
+	height: 0;
+	border: 19px solid transparent;
+	border-bottom-color: #343a40;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -9.5px;
+	margin-top: -19px;
+} */
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 150px;
+    background-color: #fa9a00;
+    color: white;
+    outline: 0;
+    text-decoration: none;
+    transition: 0.5s;
+    border-style: none;
+    font-size: medium;
+}
+
+.btn:hover {
+    background-color: #212529;
+    text-decoration: none;
+}
+
+
+.background {
+	position: relative;
+	background: #343a40;
+    height: 300px;
+    width: 400px;
+    margin: 10px 0px;
+}
+
+.background:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 7.5%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-bottom-color: #343a40;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -9.5px;
+	margin-top: -19px;
+}
+
+.bgtext {
+    padding: 0px 20px;
+    color: white;
+}
+.date {
+    padding: 0px 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 10px;
+}
+
+

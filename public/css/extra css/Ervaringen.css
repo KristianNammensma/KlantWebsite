@@ -1,0 +1,96 @@
+.Ervaringen{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 65vw;
+    width: 100vw;
+    height: 40vh;
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url('/imgs/home1-testi-bg.jpg');
+    
+}
+
+#ervaringtext{
+    color: white;
+    font-size: 30px;
+}
+
+
+#ervaring-top{
+    position: relative;
+    padding: 10px;
+    height: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 4vh;
+}
+
+.ervaring-inhoud{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 6vh;
+}
+
+#quote-1,
+#quote-2,
+#quote-3{
+    background-color: white;
+    width: 15vw;
+    padding: 10px;
+}
+
+#quote-1:after,
+#quote-2:after,
+#quote-3:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border: 32px solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	margin-left: 100px;
+	margin-bottom: -20px;
+}
+
+#client-1,
+#client-2,
+#client-3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    top: 14vh;
+    right: 15vw;
+}
+#client-pfp{
+    border-radius: 50%;
+    margin-right: 15px;
+    overflow: hidden;
+    height: 70px;
+    width: 70px;
+    background-color: grey;
+}
+.client-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 1vh;
+}
+#name{
+    position: relative;
+    font-weight: bold;
+    color: white;
+}
+#extra{
+    color: #F39323;
+    position: relative;
+    bottom: 2vh;
+    font-weight: bold;
+}
